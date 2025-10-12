@@ -73,7 +73,7 @@ body {
 .content{
   float:left;
   width:80%;
-  background-color:dark grey;
+  background-color:grgb(88, 86, 86);
   padding: 20px;
   margin: auto;
 
