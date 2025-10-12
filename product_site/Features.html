@@ -5,86 +5,112 @@
   -->
 <html lang="en">
 <head>
-
     <title> Features </title>
-
+    <!--css stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="CSS.css">
 </head>
 
 <body>
 
-    <h1> Features </h1>       
+    <div class="header">
+        <h1 id="main-header"> Features </h1>       
 
+        <img hspace="420" src="./images/MOD_Market.webp" width="400" height="350" alt="ModMarket logo">
+
+        <!-- Navigation bar -->
+        <h2>
+            <a href="ModMarket.html">Home</a> &ensp;
+            <a href="Features.html">Features</a> &ensp;
+            <a href="FAQ's.html"> FAQ's</a> &ensp;
+            Download
+        </h2>
+    </div>
+
+    <div class="content">
+
+        <p style="text-indent: 30px;">
+            ModMarket is packed with features designed to support every aspect of your automotive journey. 
+            The app offers intuitive mod tracking tools that let you document and organize every upgrade, repair, 
+            and customization on your vehicle. With a personalized marketplace, users can buy, sell, or trade parts easily, 
+            filtering listings based on compatibility, location, and price. The app also features a community forum where enthusiasts 
+            can ask questions, showcase builds, and exchange advice in real time
+        </p>
+
+        <img hspace="100" src="./images/parts.jpg" width="300" height="250" alt="ModMarket logo">
+        <img src="./images/gtr.jpg" width="400" height="250" alt="ModMarket logo">
+
+        <hr>
+        <hr>
+
+        <table border="1">
+            <tr>
+                <th>Feature</th>
+                <th>Basic User</th>
+                <th>Pro User</th>
+                <th>Seller Account</th>
+            </tr>
+            <tr>
+                <td>Mod Tracking</td>
+                <td>✓</td>
+                <td>✓</td>
+                <td>✓</td>
+            </tr>
+            <tr>
+                <td>Marketplace Access</td>
+                <td>Limited</td>
+                <td>Full Access</td>
+                <td>Sell & Buy</td>
+            </tr>
+            <tr>
+                <td>Community Forum</td>
+                <td>✓</td>
+                <td>✓</td>
+                <td>✓</td>
+            </tr>
+            <tr>
+                <td>Featured Listings</td>
+                <td>✖</td>
+                <td>1 per month</td>
+                <td>Unlimited</td>
+            </tr>
+        </table>
+
+        <hr>
+        <hr>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/OM8l6fuzg_c?si=EQwrcSEHHiUHoXoV" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+
+        <hr>
+        <hr>
+
+        <h2>Tell Us What You Think!</h2>
+
+        <!-- Favorite Feature  -->
+        <p>What is your favorite feature?</p>
+        <input type="radio" id="tracking" name="feature" value="Mod Tracking" required>
+        <label for="tracking">Mod Tracking</label><br>
+
+        <input type="radio" id="marketplace" name="feature" value="Marketplace">
+        <label for="marketplace">Marketplace</label><br>
+
+        <input type="radio" id="forum" name="feature" value="Community Forum">
+        <label for="forum">Community Forum</label><br><br>
+
+        <!-- submit button (used ChatGpt for syntax) -->
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+    </div>
     
-    <img hspace="300" src="./images/MOD_Market.webp" width="400" height="350" alt="ModMarket logo" >
-
-    <!-- Navigation bar -->
-    <h2><a href = "ModMarket.html">Home</a>    &ensp; <a href = "Features.html">Features</a> &ensp; FAQ's &ensp; Download</h2>
-
-
-        <p style="text-indent: 30px;"> ModMarket is packed with features designed to support every aspect of your automotive journey. 
-        The app offers intuitive mod tracking tools that let you document and organize every upgrade, repair, and customization on your vehicle.
-        With a personalized marketplace, users can buy, sell, or trade parts easily, filtering listings based on compatibility, location, and price. 
-        The app also features a community forum where enthusiasts can ask questions, showcase builds, and exchange advice in real time </p>
-
-
-<img hspace="100" src="./images/parts.jpg" width="300" height="250" alt="ModMarket logo" >
-<img src="./images/gtr.jpg" width="400" height="250" alt="ModMarket logo" >
-<hr>
-<hr>
-<table border = "1">
-        <tr>
-            <th>Feature</th>
-            <th>Basic User</th>
-            <th>Pro User</th>
-            <th>Seller Account</th>
-        </tr>
-        <tr>
-            <td>Mod Tracking</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Marketplace Access</td>
-            <td>Limited</td>
-            <td>Full Access</td>
-            <td>Sell & Buy</td>
-        </tr>
-        <tr>
-            <td>Community Forum</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Featured Listings</td>
-            <td>✖</td>
-            <td>1 per month</td>
-            <td>Unlimited</td>
-        </tr>
-</table>
-<hr>
-<hr>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OM8l6fuzg_c?si=EQwrcSEHHiUHoXoV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<hr>
-<hr>
-<h2>Tell Us What You Think!</h2>
-
-  <!-- Favorite Feature  -->
-  <p>What is your favorite feature?</p>
-  <input type="radio" id="tracking" name="feature" value="Mod Tracking" required>
-  <label for="tracking">Mod Tracking</label><br>
-
-  <input type="radio" id="marketplace" name="feature" value="Marketplace">
-  <label for="marketplace">Marketplace</label><br>
-
-  <input type="radio" id="forum" name="feature" value="Community Forum">
-  <label for="forum">Community Forum</label><br><br>
-
-  <!-- submit button (used ChatGpt for syntax) -->
-<input type="submit" value="Submit Feedback">
-</form>
 </body>
-
 
 </html>
