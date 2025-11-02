@@ -1,0 +1,39 @@
+#1
+
+   a. My peers understood my sites purpose by effectivley describing how my website 
+   is a application used for car mods were you can track upgrades, share builds, and buy and sell car parts.
+
+   b. Some suggestions I was given to help improve my site are creating different boxes to creaet a separate space
+    for each topic present on each page and changing around some of my colrs in the heading. Anohter suggestion I was given was to center
+    the mod market logo on my page.
+
+
+#2
+   a. My peers suggested that I should change some colors in my header and center my logo. They also stated that I have a lot of
+   white space that I could fill in 
+
+   b. My peers found  my effective by stating that the color choices work very well with the theme and 
+        easily found the idea behind my website by veiwing it.
+
+
+#3 
+    a.  Some of the interactiviy issues with my site included the assesibilty for people with disabliltyss because it could 
+    not be fully interacted with by keyboard. Also one of my peers stated that I had a download link that does not go anywere 
+    and has mismatching text to the rest of the page.
+
+    b. They did not note of any elements that loaded slow or inconsitently across different devices or browsers
+
+
+#4 
+    a. It was noted that my site did not include any alt text and that the device is not fully accessible by keyboard.
+
+    b. To make my site more inclusive I could make the website fully accessable by keyboard and fix some contrast errors. In addition 
+    I could also provide alt text for my images.
+
+
+#5.  
+    a. Some things my peers liked  the most about my site were the colors, layout and the images on my site. 
+
+
+    b.Two improvments I will make based on this feedback is centering my mod market logo on the webpage by changing the hspace values to better
+    fit the page. Also I will fix the issue with the mispaced and styled download button.
