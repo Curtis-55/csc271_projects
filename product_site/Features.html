@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- Curtis Palmer, 9/28/25
+    This page is a feautes page of my 
+    mobile app mod market. 
+  -->
+<html lang="en">
+<head>
+    <title> Features 
+        <meta name="keywords" content="cool car mods, car modification app">
+    </title>
+    
+    <meta name="description" content="Discover the features of ModMarket, the ultimate app for car enthusiasts to track modifications and buy/sell parts."> 
+
+    <meta property="og:title" content="Mod Market" />
+    <meta property="og:type" content="Webstie" />
+    <meta property="og:url" content="https://curtispalmer.rhody.dev/csc271_projects/product_site/ModMarket.html" />
+    <meta property="og:image" content="./images/MOD_Market.webp"/>
+    <meta name="keywords" content="cheap car mods, car modding app">
+    <meta name="keywords" content="best car mods for sale, car part picker app">     
+    <meta name="keywords" content="used car parts">  
+    <!--css stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+
+
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QPP89NKV0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6QPP89NKV0');
+    </script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 id="main-header"> Features </h1>   
+         
+
+        <img alt = "Mod Market logo" hspace="400" src="./images/MOD_Market.webp" width="400" height="350" alt="ModMarket logo">
+
+        <!-- Navigation bar -->
+        <h2>
+            <a href="ModMarket.html">Home</a> &ensp;
+            <a href="Features.html">Features</a> &ensp;
+            <a href="FAQ's.html"> FAQ's</a> &ensp;
+            <a href="Download.html"> Download</a> &ensp;
+        </h2>
+    </div>
+
+    <div class="content">
+
+        <p style="text-indent: 30px;">
+            ModMarket is packed with features designed to support every aspect of your automotive journey. 
+            The app offers intuitive mod tracking tools that let you document and organize every upgrade, repair, 
+            and customization on your vehicle. With a personalized marketplace, users can buy, sell, or trade parts easily, 
+            filtering listings based on compatibility, location, and price. Finding cheap car mods has never been this easy! The app also features a community forum where enthusiasts 
+            can ask questions, showcase builds, and exchange advice in real time
+        </p>
+
+        <img alt = "car parts" hspace="100" src="./images/parts.jpg" width="300" height="250" alt="ModMarket logo">
+        <img alt = "modded car" src="./images/gtr.jpg" width="400" height="250" alt="ModMarket logo">
+
+        <hr>
+        <hr>
+
+        <table border="1">
+            <tr>
+                <th>Feature</th>
+                <th>Basic User</th>
+                <th>Pro User</th>
+                <th>Seller Account</th>
+            </tr>
+            <tr>
+                <td>Mod Tracking</td>
+                <td>Included</td>
+                <td>Included</td>
+                <td>Included</td>
+            </tr>
+            <tr>
+                <td>Marketplace Access</td>
+                <td>Limited</td>
+                <td>Full Access</td>
+                <td>Sell & Buy</td>
+            </tr>
+            <tr>
+                <td>Community Forum</td>
+                <td>Included</td>
+                <td>Included</td>
+                <td>Included</td>
+            </tr>
+            <tr>
+                <td>Featured Listings</td>
+                <td>Not Included</td>
+                <td>1 per month</td>
+                <td>Unlimited</td>
+            </tr>
+        </table>
+
+        <hr>
+        <hr>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/OM8l6fuzg_c?si=EQwrcSEHHiUHoXoV" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+
+        <hr>
+        <hr>
+
+        <h2>Tell Us What You Think!</h2>
+
+        <!-- Favorite Feature  -->
+        <p>What is your favorite feature?</p>
+        <input type="radio" id="tracking" name="feature" value="Mod Tracking" required>
+        <label for="tracking">Mod Tracking</label><br>
+
+        <input type="radio" id="marketplace" name="feature" value="Marketplace">
+        <label for="marketplace">Marketplace</label><br>
+
+        <input type="radio" id="forum" name="feature" value="Community Forum">
+        <label for="forum">Community Forum</label><br><br>
+
+        <!-- submit button (used ChatGpt for syntax) -->
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+        <button id="darkModeToggle"> Toggle Dark Mode</button>
+        
+    </div>
+
+
+    <script src="js/darkmode.js"></script>
+    
+</body>
+
+</html>
