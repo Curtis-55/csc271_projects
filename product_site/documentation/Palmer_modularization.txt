@@ -1,0 +1,12 @@
+#1 In my script for the UpgradeTree there is a lot of code that repeats a self contained 
+task. Such as the handiling of choices and clearing the elements.
+
+#2 The sections that could be turned into functions are the clearing elemtents and handiling 
+of upgrade choices, Some parameters I could use are list, output, and box.
+
+#3 my first function will clear the content from the html elements before showing 
+new information it will have a parameter next step and result but will not return anything. My second function will display the upgrade choices and handle
+inputs. Some parameters this function will use are box and output and it will have
+no return. These functions will enhance my site by simplifying it improving the readabiliy
+and will reduce repition by implementing loops. A new function that could enhance my site could be a show message function
+that displays a custom message with paramters like targed and text but no return.
